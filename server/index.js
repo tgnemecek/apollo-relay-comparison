@@ -7,7 +7,7 @@ const schema = require('./graphql');
 const app = express();
 
 MongoClient.connect(
-  'mongodb://localhost/graphql',
+  'mongodb://localhost:2717/graphql',
   (err, database) => {
     if (err) return console.log(err);
     const db = database.db('graphql');

@@ -10,6 +10,9 @@ const Main = () => {
       <Link to="/apollo" className="switch">
         Switch to Apollo
       </Link>
+      <Link to="/" className="switch">
+        Switch to Apollo Hooks
+      </Link>
       <div className="container">
         <QueryComponent>
           {data => {

@@ -1,1 +1,2 @@
-Implements the same app (a basic contact list) in both Apollo and Relay.
+Make sure server/index.js is pointing to your local mongo, then run:
+`yarn, yarn server, yarn start`
